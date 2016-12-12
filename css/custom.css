@@ -60,7 +60,7 @@ nav{
 }
 
 .footer{
-	height: 200px;
+	height: 150px;
 	background-color: grey;	
 	margin-top: 3px;
 }
@@ -87,6 +87,9 @@ nav{
 }
 .shares>a:nth-child(3){
 	background:url(../img/logo/shareExample.png) no-repeat -700px -280px;
+}
+.copyRight{
+	text-align: center;
 }
 
 .paragraph{
