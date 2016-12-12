@@ -60,14 +60,13 @@ nav{
 }
 
 .footer{
-	height: 200px;
+	height: 150px;
 	background-color: grey;	
 	margin-top: 3px;
 }
 .shares{
 	width: 600px;
 	height: 80px;
-	background-color: burlywood;
 	display: block;
 	margin: 0 auto;
 }
@@ -88,10 +87,42 @@ nav{
 .shares>a:nth-child(3){
 	background:url(../img/logo/shareExample.png) no-repeat -700px -280px;
 }
+.copyRight{
+	margin: 0 auto;
+	text-align: center;
+}
 
-.paragraph{
-	height: 300px;
-	background-color: #F0F8FF;
+.carouselFigure{
+	margin:5px 0;
+}
+.carouselFigure li{
+	list-style: none;
+	display:block;
+	margin: 0 auto;
+}
+.carouselFigure a{
+	width: 80%;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+}
+.carouselFigure img{
+	width: 100%;
+	height: 500px;
+}
+.skillList{
+	margin-bottom: 5px;
+	background-color: gold;
+}
+.skillList li{
+	float: left;
+	list-style: none;
+	width: 22%;
+	height: 400px;
+	background-color: antiquewhite;
+}
+.skillList .skillTwo,.skillList .skillThree,.skillList .skillFour{
+	margin: 0 0 0 4%;
 }
 .carouselFigure li{
 	list-style: none;
